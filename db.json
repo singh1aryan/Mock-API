@@ -1,7 +1,7 @@
 {
   "posts": [
     { 
-      "id": 1, "title": "Post 1", "data": [], 
+      "id": 1, "title": "Post 1", "data": [0.2, 0.4, 0.4, 1, 2, -0.5]
     },
     { 
       "id": 2, "title": "Post 2" 
