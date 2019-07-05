@@ -1,9 +1,9 @@
 {
   
   "sparkline-graphs": [
-    { "id": 1, "title": "Graph 1", "points": [0.1, 0.2, 0.4, 0.3] },
-    { "id": 2, "title": "Graph 2", "points": [0.1, 0.2, 0.4, 0.3] },
-    { "id": 3, "title": "Graph 3", "points": [0.1, 0.2, 0.4, 0.3] }
+    { "id": 1, "title": "Graph 1", "points": [0.1, 0.3, 0.2, 0.5, 0.1] },
+    { "id": 2, "title": "Graph 2", "points": [0.1, 0.2, 0.4, 0.3, 0.6] },
+    { "id": 3, "title": "Graph 3", "points": [0.2, 0.4, 0.5, 0.4, 0.7, 0.2] }
   ],
 
   "donut-chart": [
@@ -38,4 +38,5 @@
     {"name": "Aryan", "email": "aryan.singh@arrow.com"},
     {"name": "Matthijs", "email": "matthijs.vandervegte@arrow.com"}
   ]
+
 }
