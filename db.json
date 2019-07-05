@@ -1,14 +1,41 @@
 {
-  "graphs": [
+  
+  "sparkline-graphs": [
     { "id": 1, "title": "Graph 1", "points": [0.1, 0.2, 0.4, 0.3] },
     { "id": 2, "title": "Graph 2", "points": [0.1, 0.2, 0.4, 0.3] },
     { "id": 3, "title": "Graph 3", "points": [0.1, 0.2, 0.4, 0.3] }
   ],
+
+  "donut-chart": [
+    {"id": 1, "title": "Donut 1", "value": 500.0, "color": "#ffe4c4", "rankKey": "Q1"},
+    {"id": 2, "title": "Donut 2", "value": 1000.0, "color": "#ffebcd", "rankKey": "Q2"},
+    {"id": 3, "title": "Donut 3", "value": 2000.0, "color": "#a52a2a", "rankKey": "Q3"},
+    {"id": 4, "title": "Donut 4", "value": 1000.0, "color": "#f5f5dc", "rankKey": "Q4"}
+  ],
+  
+  "sales":[
+    { "id": 1, "year": 2014, "sale": 2000},
+    { "id": 2, "year": 2015, "sale": 5000},
+    { "id": 3, "year": 2016, "sale": 1000},
+    { "id": 4, "year": 2017, "sale": 3000},
+    { "id": 5, "year": 2018, "sale": 7000}
+  ],
+  
   "comments": [
     { "id": 1, "body": "some comment", "postId": 1 },
     { "id": 2, "body": "some comment", "postId": 1 }
   ],
+
   "profile": {
     "name": "typicode"
-  }
+  },
+
+  "reports": [
+    {}
+  ],
+
+  "users":[
+    {"name": "Aryan", "email": "aryan.singh@arrow.com"},
+    {"name": "Matthijs", "email": "matthijs.vandervegte@arrow.com"}
+  ]
 }
