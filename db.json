@@ -23,7 +23,8 @@
 
   "users":[
     {"name": "Aryan", "email": "aryan.singh@arrow.com"},
-    {"name": "Matthijs", "email": "matthijs.vandervegte@arrow.com"}
+    {"name": "Matthijs", "email": "matthijs.vandervegte@arrow.com"},
+    {"name": "mat", "email": "matthijs@arrow.com"}
   ]
 
 }
