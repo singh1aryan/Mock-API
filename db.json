@@ -20,19 +20,6 @@
     { "id": 4, "year": 2017, "sale": 3000},
     { "id": 5, "year": 2018, "sale": 7000}
   ],
-  
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
-  ],
-
-  "profile": {
-    "name": "typicode"
-  },
-
-  "reports": [
-    {}
-  ],
 
   "users":[
     {"name": "Aryan", "email": "aryan.singh@arrow.com"},
