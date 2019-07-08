@@ -14,11 +14,11 @@
   ],
   
   "sales":[
-    { "id": 1, "year": 2014, "sale": 2000},
-    { "id": 2, "year": 2015, "sale": 5000},
-    { "id": 3, "year": 2016, "sale": 1000},
-    { "id": 4, "year": 2017, "sale": 3000},
-    { "id": 5, "year": 2018, "sale": 7000}
+    { "id": 1, "year": 2014, "sales": 2000},
+    { "id": 2, "year": 2015, "sales": 5000},
+    { "id": 3, "year": 2016, "sales": 1000},
+    { "id": 4, "year": 2017, "sales": 3000},
+    { "id": 5, "year": 2018, "sales": 7000}
   ],
 
   "users":[
