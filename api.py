@@ -23,6 +23,34 @@ books = [
      'published': '1975'}
 ]
 
+sales = [
+    {
+    "id": 1,
+    "year": 2014,
+    "sales": 2000
+    },
+    {
+    "id": 2,
+    "year": 2015,
+    "sales": 5000
+    },
+    {
+    "id": 3,
+    "year": 2016,
+    "sales": 1000
+    },
+    {
+    "id": 4,
+    "year": 2017,
+    "sales": 3000
+    },
+    {
+    "id": 5,
+    "year": 2018,
+    "sales": 7000
+    }
+]
+
 
 @app.route('/', methods=['GET'])
 def home():
@@ -35,6 +63,10 @@ def home():
 def api_all():
     return jsonify(books)
 
+# A route to return all of the available entries in our catalog.
+@app.route('/sales', methods=['GET'])
+def api_sales():
+    return jsonify(sales)
 
 @app.route('/api/v1/resources/books', methods=['GET'])
 def api_id():
