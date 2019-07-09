@@ -7,5 +7,5 @@
 
 ## How to run - flask API - local DB
 * Clone the repo
-* cd into {app-repo}/flask-api
+* cd into {app-repo}/python
 * Run python api.py
