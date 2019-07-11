@@ -21,22 +21,22 @@
     { "id": 5, "year": 2018, "sales": 7000}
   ],
 
-  "users":[
-    {"name": "Aryan", "email": "aryan.singh@arrow.com"},
-    {"name": "Matthijs", "email": "matthijs.vandervegte@arrow.com"},
-    {"name": "mat", "email": "matthijs@arrow.com"}
-  ],
-
-  "dynamic":[
+  "dynamic-widgets":[
     {
       "type":"Container",
-      "height":"100",
-      "weight":"100",
+      "height":100,
+      "weight":100,
       "alignment": "center",
+      "padding":[8,8,8,8],  
       "child":{
-        "type":"bar-graph",
-        "data":[0.1,0.3,0.4,0.5],
-        "padding":"8,8,8,8"
+        "type":"donut-chart",
+        "data":[
+          {"year": 2014, "sales": 2000},
+          {"year": 2015, "sales": 5000},
+          {"year": 2016, "sales": 1000},
+          {"year": 2017, "sales": 3000},
+          {"year": 2018, "sales": 7000}
+        ]
       }
     },
     {
