@@ -25,6 +25,55 @@
     {"name": "Aryan", "email": "aryan.singh@arrow.com"},
     {"name": "Matthijs", "email": "matthijs.vandervegte@arrow.com"},
     {"name": "mat", "email": "matthijs@arrow.com"}
+  ],
+
+  "dynamic":[
+    {
+      "type":"Container",
+      "height":"100",
+      "weight":"100",
+      "alignment": "center",
+      "child":{
+        "type":"bar-graph",
+        "data":[0.1,0.3,0.4,0.5],
+        "padding":"8,8,8,8"
+      }
+    },
+    {
+      "type":"Container",
+      "height":"100",
+      "weight":"100",
+      "padding":"10,10,10,10",
+      "alignment": "center",
+      "child":{
+        "type":"labe-pie-chart",
+        "data":[
+          {"year": 2014, "sales": 2000},
+          {"year": 2015, "sales": 5000},
+          {"year": 2016, "sales": 1000},
+          {"year": 2017, "sales": 3000},
+          {"year": 2018, "sales": 7000}
+        ],
+        "padding":"8,8,8,8"
+      }
+    },
+    {
+      "type": "Container",
+      "alignment": "center",
+      "child": {
+        "type": "RaisedButton",
+        "color": "##FF00FF",
+        "padding": "8,8,8,8",
+        "textColor": "#00FF00",
+        "elevation" : 8.0,
+        "splashColor" : "#00FF00",
+        "click_event" : "route://productDetail?goods_id=123",
+        "child" : {
+          "type": "Text",
+          "data": "I am a button"
+        }  
+      }
+    }
   ]
 
 }
