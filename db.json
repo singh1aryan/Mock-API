@@ -21,6 +21,40 @@
     { "id": 5, "year": 2018, "sales": 7000}
   ],
 
+  "staggered":[
+    {
+      "staggered_tiles": [
+        {"cross_axis": 2, "main_axis": 2},
+        {"cross_axis": 1, "main_axis": 1},
+        {"cross_axis": 1, "main_axis": 1},
+        {"cross_axis": 1, "main_axis": 1},
+        {"cross_axis": 2, "main_axis": 2},
+        {"cross_axis": 1, "main_axis": 2},
+        {"cross_axis": 1, "main_axis": 1},
+        {"cross_axis": 1, "main_axis": 1},
+        {"cross_axis": 3, "main_axis": 1},
+        {"cross_axis": 2, "main_axis": 1},
+        {"cross_axis": 1, "main_axis": 1}
+      ],
+      "grid_tile": [
+        {"color": "blue","icon": "add","label": "Add"},
+        {"color": "amber","icon": "donut_large","label": "Donut"},
+        {"color": "brown","icon": "insert_chart","label": "Bar"},
+        {"color": "deep_orange","icon": "donut_small","label": "Donut"},
+        {"color": "indigo","icon": "bubble_chart","label": "Bubble"},
+        {"color": "red","icon": "donut_large","label": "Donut-hole"},
+        {"color": "red","icon": "multiline_chart","label": "Sparkline"},
+        {"color": "pink","icon": "insert_chart","label": "Pine"},
+        {"color": "blue","icon": "table_chart","label": "Table"},
+        {"color": "blue","icon": "backspace","label": "Extra"}
+      ],
+      "cross_axis_count": 3,
+      "main_axis_spacing": 4,
+      "cross_axis_spacing": 4,
+      "padding": 4.0
+    }
+  ],
+
   "dynamic-widgets":[
     {
       "type":"Container",

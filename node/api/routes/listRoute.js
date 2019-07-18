@@ -1,6 +1,6 @@
 'use strict';
 module.exports = function(app) {
-  var todoList = require('../controllers/todoListController');
+  var todoList = require('../controllers/listController');
 
   // todoList Routes
   app.route('/tasks')
