@@ -55,59 +55,57 @@
     }
   ],
 
-  "dynamic-widgets":[
+  "dynamic-charts":
+  [
     {
-      "type":"Container",
-      "height":100,
-      "weight":100,
-      "alignment": "center",
-      "padding":[8,8,8,8],  
-      "child":{
-        "type":"donut-chart",
-        "data":[
-          {"year": 2014, "sales": 2000},
-          {"year": 2015, "sales": 5000},
-          {"year": 2016, "sales": 1000},
-          {"year": 2017, "sales": 3000},
-          {"year": 2018, "sales": 7000}
-        ]
-      }
+      "type": "donut",
+      "title": "Sales - Pie chart",
+      "height": 200.0,
+      "weight": 200.0,
+      "data":[
+        {"year": 0, "sales": 5000},
+        {"year": 1, "sales": 5000},
+        {"year": 2, "sales": 1000},
+        {"year": 3, "sales": 3000}
+      ]
     },
     {
-      "type":"Container",
-      "height":"100",
-      "weight":"100",
-      "padding":"10,10,10,10",
-      "alignment": "center",
-      "child":{
-        "type":"labe-pie-chart",
-        "data":[
-          {"year": 2014, "sales": 2000},
-          {"year": 2015, "sales": 5000},
-          {"year": 2016, "sales": 1000},
-          {"year": 2017, "sales": 3000},
-          {"year": 2018, "sales": 7000}
-        ],
-        "padding":"8,8,8,8"
-      }
+      "type": "label-pie",
+      "title": "Sales - Label Pie chart",
+      "height": 150.0,
+      "weight": 150.0,
+      "data":[
+        {"year": 0, "sales": 100},
+        {"year": 1, "sales": 75},
+        {"year": 2, "sales": 25},
+        {"year": 3, "sales": 5}
+      ]
     },
     {
-      "type": "Container",
-      "alignment": "center",
-      "child": {
-        "type": "RaisedButton",
-        "color": "##FF00FF",
-        "padding": "8,8,8,8",
-        "textColor": "#00FF00",
-        "elevation" : 8.0,
-        "splashColor" : "#00FF00",
-        "click_event" : "route://productDetail?goods_id=123",
-        "child" : {
-          "type": "Text",
-          "data": "I am a button"
-        }  
-      }
+      "type": "bar-graph",
+      "title": "Sales - Bar graph",
+      "height": 200.0,
+      "weight": 200.0,
+      "data":[
+        {"year": "2014", "sales": 5000},
+        {"year": "2015", "sales": 6000},
+        {"year": "2016", "sales": 3000},
+        {"year": "2017", "sales": 4000},
+        {"year": "2018", "sales": 1000}
+      ]
+    },
+    {
+      "type": "bar-graph",
+      "title": "Sales - Bar graph",
+      "height": 200.0,
+      "weight": 200.0,
+      "data":[
+        {"year": "2014", "sales": 5000},
+        {"year": "2015", "sales": 6000},
+        {"year": "2016", "sales": 3000},
+        {"year": "2017", "sales": 4000},
+        {"year": "2018", "sales": 1000}
+      ]
     }
   ]
-
 }
