@@ -111,6 +111,32 @@
     ],
     [
       {
+        "type": "line-chart",
+        "title": "Sales - Label Pie chart",
+        "height": 150.0,
+        "weight": 150.0,
+        "data":[
+          {"year": 0, "sales": 100},
+          {"year": 1, "sales": 75},
+          {"year": 2, "sales": 25},
+          {"year": 3, "sales": 5}
+        ]
+      },
+      {
+        "type": "donut",
+        "title": "Sales - Pie chart",
+        "height": 200.0,
+        "weight": 200.0,
+        "data":[
+          {"year": 0, "sales": 5000},
+          {"year": 1, "sales": 5000},
+          {"year": 2, "sales": 1000},
+          {"year": 3, "sales": 3000}
+        ]
+      }
+    ],
+    [
+      {
         "type": "donut",
         "title": "Sales - Pie chart",
         "height": 200.0,
@@ -137,6 +163,18 @@
     ],
     [
       {
+        "type": "label-pie",
+        "title": "Sales - Label Pie chart",
+        "height": 150.0,
+        "weight": 150.0,
+        "data":[
+          {"year": 0, "sales": 100},
+          {"year": 1, "sales": 75},
+          {"year": 2, "sales": 25},
+          {"year": 3, "sales": 5}
+        ]
+      },
+      {
         "type": "donut",
         "title": "Sales - Pie chart",
         "height": 200.0,
@@ -146,6 +184,20 @@
           {"year": 1, "sales": 5000},
           {"year": 2, "sales": 1000},
           {"year": 3, "sales": 3000}
+        ]
+      }
+    ],
+    [
+      {
+        "type": "line-chart",
+        "title": "Sales - Label Pie chart",
+        "height": 150.0,
+        "weight": 150.0,
+        "data":[
+          {"year": 0, "sales": 100},
+          {"year": 1, "sales": 75},
+          {"year": 2, "sales": 25},
+          {"year": 3, "sales": 5}
         ]
       },
       {
