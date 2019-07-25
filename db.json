@@ -57,79 +57,109 @@
 
   "dynamic-charts":
   [
-    {
-      "type": "donut",
-      "title": "Sales - Pie chart",
-      "height": 200.0,
-      "weight": 200.0,
-      "data":[
-        {"year": 0, "sales": 5000},
-        {"year": 1, "sales": 5000},
-        {"year": 2, "sales": 1000},
-        {"year": 3, "sales": 3000}
-      ]
-    },
-    {
-      "type": "label-pie",
-      "title": "Sales - Label Pie chart",
-      "height": 150.0,
-      "weight": 150.0,
-      "data":[
-        {"year": 0, "sales": 100},
-        {"year": 1, "sales": 75},
-        {"year": 2, "sales": 25},
-        {"year": 3, "sales": 5}
-      ]
-    },
-    {
-      "type": "bar-graph",
-      "title": "Sales - Bar graph",
-      "height": 200.0,
-      "weight": 200.0,
-      "data":[
-        {"year": "2014", "sales": 5000},
-        {"year": "2015", "sales": 6000},
-        {"year": "2016", "sales": 3000},
-        {"year": "2017", "sales": 4000},
-        {"year": "2018", "sales": 1000}
-      ]
-    },
-    {
-      "type": "bar-graph",
-      "title": "Sales - Bar graph",
-      "height": 200.0,
-      "weight": 200.0,
-      "data":[
-        {"year": "2014", "sales": 5000},
-        {"year": "2015", "sales": 6000},
-        {"year": "2016", "sales": 3000},
-        {"year": "2017", "sales": 4000},
-        {"year": "2018", "sales": 1000}
-      ]
-    },
-    {
-      "type": "donut",
-      "title": "Sales - Pie chart",
-      "height": 200.0,
-      "weight": 200.0,
-      "data":[
-        {"year": 0, "sales": 5000},
-        {"year": 1, "sales": 5000},
-        {"year": 2, "sales": 1000},
-        {"year": 3, "sales": 3000}
-      ]
-    },
-    {
-      "type": "label-pie",
-      "title": "Sales - Label Pie chart",
-      "height": 150.0,
-      "weight": 150.0,
-      "data":[
-        {"year": 0, "sales": 100},
-        {"year": 1, "sales": 75},
-        {"year": 2, "sales": 25},
-        {"year": 3, "sales": 5}
-      ]
-    }
+    [
+      {
+        "type": "donut",
+        "title": "Sales - Pie chart",
+        "height": 200.0,
+        "weight": 200.0,
+        "data":[
+          {"year": 0, "sales": 5000},
+          {"year": 1, "sales": 5000},
+          {"year": 2, "sales": 1000},
+          {"year": 3, "sales": 3000}
+        ]
+      },
+      {
+        "type": "donut",
+        "title": "Sales - Pie chart",
+        "height": 200.0,
+        "weight": 200.0,
+        "data":[
+          {"year": 0, "sales": 5000},
+          {"year": 1, "sales": 5000},
+          {"year": 2, "sales": 1000},
+          {"year": 3, "sales": 3000}
+        ]
+      }
+    ],
+    [
+      {
+        "type": "donut",
+        "title": "Sales - Pie chart",
+        "height": 200.0,
+        "weight": 200.0,
+        "data":[
+          {"year": 0, "sales": 5000},
+          {"year": 1, "sales": 5000},
+          {"year": 2, "sales": 1000},
+          {"year": 3, "sales": 3000}
+        ]
+      },
+      {
+        "type": "label-pie",
+        "title": "Sales - Label Pie chart",
+        "height": 150.0,
+        "weight": 150.0,
+        "data":[
+          {"year": 0, "sales": 100},
+          {"year": 1, "sales": 75},
+          {"year": 2, "sales": 25},
+          {"year": 3, "sales": 5}
+        ]
+      }
+    ],
+    [
+      {
+        "type": "donut",
+        "title": "Sales - Pie chart",
+        "height": 200.0,
+        "weight": 200.0,
+        "data":[
+          {"year": 0, "sales": 5000},
+          {"year": 1, "sales": 5000},
+          {"year": 2, "sales": 1000},
+          {"year": 3, "sales": 3000}
+        ]
+      },
+      {
+        "type": "label-pie",
+        "title": "Sales - Label Pie chart",
+        "height": 150.0,
+        "weight": 150.0,
+        "data":[
+          {"year": 0, "sales": 100},
+          {"year": 1, "sales": 75},
+          {"year": 2, "sales": 25},
+          {"year": 3, "sales": 5}
+        ]
+      }
+    ],
+    [
+      {
+        "type": "donut",
+        "title": "Sales - Pie chart",
+        "height": 200.0,
+        "weight": 200.0,
+        "data":[
+          {"year": 0, "sales": 5000},
+          {"year": 1, "sales": 5000},
+          {"year": 2, "sales": 1000},
+          {"year": 3, "sales": 3000}
+        ]
+      },
+      {
+        "type": "label-pie",
+        "title": "Sales - Label Pie chart",
+        "height": 150.0,
+        "weight": 150.0,
+        "data":[
+          {"year": 0, "sales": 100},
+          {"year": 1, "sales": 75},
+          {"year": 2, "sales": 25},
+          {"year": 3, "sales": 5}
+        ]
+      }
+    ]
   ]
 }
