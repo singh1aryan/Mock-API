@@ -6,12 +6,15 @@
     { "id": 3, "title": "Graph 3", "points": [0.2, 0.4, 0.5, 0.4, 0.7, 0.2] }
   ],
 
-  "donut-chart": [
-    {"id": 1, "title": "Donut 1", "value": 500.0, "color": "#ffe4c4", "rankKey": "Q1"},
-    {"id": 2, "title": "Donut 2", "value": 800.0, "color": "#ffebcd", "rankKey": "Q2"},
-    {"id": 3, "title": "Donut 3", "value": 2000.0, "color": "#a52a2a", "rankKey": "Q3"},
-    {"id": 4, "title": "Donut 4", "value": 1000.0, "color": "#f5f5dc", "rankKey": "Q4"}
-  ],
+  "donut-chart": {
+      "data": [
+        { "id": 1, "year": 2014, "sales": 200},
+        { "id": 2, "year": 2015, "sales": 75},
+        { "id": 3, "year": 2016, "sales": 20},
+        { "id": 4, "year": 2017, "sales": 100},
+        { "id": 5, "year": 2018, "sales": 20}
+      ]
+  },
   
   "sales":[
     { "id": 1, "year": 2014, "sales": 2000},
