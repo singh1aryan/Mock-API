@@ -59,7 +59,7 @@
   [
     [
       {
-        "type": "label-pie",
+        "type": "donut",
         "title": "Sales - Label Pie chart",
         "height": 150.0,
         "weight": 150.0,
