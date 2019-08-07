@@ -13,4 +13,6 @@
 * Run python api.py
 
 ---
-## Node + Express JS - Javascript
+## Node, Express, Angular JS -> rest api
+* https://devcenter.heroku.com/articles/mean-apps-restful-api
+* Deploy it on heroku - https://tranquil-shore-75468.herokuapp.com/
