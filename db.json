@@ -6,18 +6,21 @@
       "age":"new",
       "title":"TS880ILT",
       "body":"Comparator Single R-R I/P 5.5V 5-Pin SOT-23 T/R",
+      "price":0.61,
       "manufacturer":"STMicroelectronics",
       "image":"https://static6.arrow.com/aropdfconversion/arrowimages/17c020cac2a7a4ddb595295b8cae82b71c67fcd3/sot95p280x110-5l20_adi_n.step.jpg",
-      "price":1.44
+      "category":["featured","popular"]
+
     },
     {
       "type":"Comparators",
       "age":"new",
       "title":"NCS2252SN2T1G",
       "body":"Comparator Single R-R I/O 5.5V 5-Pin TSOP T/R",
+      "price":0.61,
       "manufacturer":"ON semiconductor",
       "image":"https://static6.arrow.com/aropdfconversion/arrowimages/9acb6ab7e09107bbc75c594691808ecd7f13c064/tsop5.jpg",
-      "price":0.61
+      "category":["featured","popular"]
     }
   ],
 
