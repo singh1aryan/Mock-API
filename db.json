@@ -77,7 +77,7 @@
   [
     [
       {
-        "type": "donut",
+        "type": "line-chart",
         "title": "Sales - Label Pie chart",
         "height": 150.0,
         "weight": 150.0,
@@ -115,7 +115,7 @@
         ]
       },
       {
-        "type": "line-chart",
+        "type": "donut",
         "title": "Sales - Label Pie chart",
         "height": 150.0,
         "weight": 150.0,
