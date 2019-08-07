@@ -24,15 +24,22 @@
     }
   ],
 
-  "donut-chart": {
-      "data": [
-        { "id": 1, "year": 2014, "sales": 200},
-        { "id": 2, "year": 2015, "sales": 75},
-        { "id": 3, "year": 2016, "sales": 20},
-        { "id": 4, "year": 2017, "sales": 100},
-        { "id": 5, "year": 2018, "sales": 20}
-      ]
-  },
+  "news":[
+    {
+      "title":"News Article 1",
+      "body": "Body number 1",
+      "level":"beginner",
+      "importance": "High",
+      "dateAdded": "08/07/2019"
+    },
+    {
+      "title":"News Article 2",
+      "body": "Body number 2",
+      "level":"amateur",
+      "importance": "Medium",
+      "dateAdded": "08/05/2019"
+    }
+  ],
   
   "sales":[
     { "id": 1, "year": 2014, "sales": 2000},
