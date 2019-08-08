@@ -9,7 +9,8 @@
       "price":0.61,
       "manufacturer":"STMicroelectronics",
       "image":"https://static6.arrow.com/aropdfconversion/arrowimages/17c020cac2a7a4ddb595295b8cae82b71c67fcd3/sot95p280x110-5l20_adi_n.step.jpg",
-      "category":["featured","popular"]
+      "categories":"amplifiers,attenuators,audio,batteries,capacitors",
+      "filters": "featured,popular,new"
 
     },
     {
@@ -20,7 +21,8 @@
       "price":0.61,
       "manufacturer":"ON semiconductor",
       "image":"https://static6.arrow.com/aropdfconversion/arrowimages/9acb6ab7e09107bbc75c594691808ecd7f13c064/tsop5.jpg",
-      "category":["featured","popular"]
+      "categories":"amplifiers,displays,controllers,LEDs,transmittors",
+      "filters":"featured,popular,old"
     }
   ],
 
