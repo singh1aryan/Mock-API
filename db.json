@@ -2,6 +2,7 @@
   
   "products": [
     {
+      "id":0,
       "type":"Comparators",
       "age":"new",
       "title":"TS880ILT",
@@ -14,6 +15,7 @@
 
     },
     {
+      "id":1,
       "type":"Comparators",
       "age":"new",
       "title":"NCS2252SN2T1G",
